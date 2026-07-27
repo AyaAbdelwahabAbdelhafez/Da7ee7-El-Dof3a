@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Solved Exams — Da7ee7-El-Dof3a</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="nav-inner">
+      <a href="index.html" class="brand"><span class="brand-mark">دح</span>Da7ee7-El-Dof3a</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="upload.html">Upload</a></li>
+        <li><a href="processing.html">Processing</a></li>
+        <li><a href="results.html">Results</a></li>
+        <li><a href="summary.html">Summary</a></li>
+        <li><a href="solved_exams.html">Solved Exams</a></li>
+      </ul>
+      <button class="nav-toggle" aria-label="Toggle menu">☰</button>
+    </div>
+  </nav>
+
+  <header class="container" style="padding-top:56px;">
+    <span class="eyebrow">Grounded answers</span>
+    <h1 style="font-size:clamp(1.8rem,4vw,2.6rem); margin-top:14px;">Solved Previous Exams</h1>
+    <p style="color:var(--text-muted-on-ink); max-width:56ch; margin-top:12px;">
+      Pick a previously uploaded exam file, or ask a specific question — answers are grounded in your lecture material.
+    </p>
+  </header>
+
+  <section class="section tight">
+    <div class="container" style="display:grid; grid-template-columns: 1fr 1.4fr; gap:32px; align-items:start;">
+      <div class="card">
+        <h3>Ask a question</h3>
+        <p>Type any exam-style question about your uploaded material.</p>
+        <textarea id="questionInput" rows="4" placeholder="e.g. Explain the difference between TCP and UDP with an example."
+          style="width:100%; margin-top:14px; padding:12px; border-radius:10px; border:1px solid rgba(27,30,46,0.15); font-family:inherit; resize:vertical;"></textarea>
+        <button class="btn btn-dark" id="askBtn" style="margin-top:14px;">Solve this question →</button>
+
+        <hr style="margin:28px 0; border:none; border-top:1px solid rgba(27,30,46,0.1);" />
+
+        <h3>Or solve an uploaded exam file</h3>
+        <select id="examFileSelect" style="width:100%; margin-top:12px; padding:10px; border-radius:10px; border:1px solid rgba(27,30,46,0.15);">
+          <option value="">Select a previously uploaded exam…</option>
+        </select>
+        <button class="btn btn-outline" id="solveFileBtn" style="margin-top:14px; color:var(--text-on-paper); border-color:rgba(27,30,46,0.2);">Solve full exam →</button>
+      </div>
+
+      <div>
+        <div id="solvedList">
+          <div class="empty-state">
+            <div class="icon">🧠</div>
+            <p>Solved questions will appear here.</p>
+          </div>
+        </div>
+        <button class="btn btn-dark" id="downloadExamBtn" style="margin-top:8px; display:none;">Export solved exam as PDF</button>
+      </div>
+    </div>
+  </section>
+
+  <footer class="container">
+    <span>© 2026 Da7ee7-El-Dof3a</span>
+    <span>Answers are generated from your own material — always double-check.</span>
+  </footer>
+
+  <script src="js/api.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/solved_exams.js"></script>
+</body>
+</html>

@@ -1,0 +1,514 @@
+[2026-07-26 00:33:40] [INFO] [main] Da7ee7-El-Dof3a Backend v1.0.0 starting up (env=development)
+[2026-07-26 00:33:40] [INFO] [main] Kaggle AI base URL: https://CHANGE-ME.ngrok-free.app
+[2026-07-26 00:58:59] [INFO] [main] Backend shutting down.
+[2026-07-26 00:59:35] [INFO] [main] Da7ee7-El-Dof3a Backend v1.0.0 starting up (env=development)
+[2026-07-26 00:59:35] [INFO] [main] Kaggle AI base URL: https://CHANGE-ME.ngrok-free.app
+[2026-07-26 01:02:35] [INFO] [main] Backend shutting down.
+[2026-07-26 01:02:54] [INFO] [main] Da7ee7-El-Dof3a Backend v1.0.0 starting up (env=development)
+[2026-07-26 01:02:54] [INFO] [main] Kaggle AI base URL: https://shudder-reviver-undercoat.ngrok-free.dev
+[2026-07-26 01:03:25] [INFO] [main] GET /docs -> 200 (0.8ms)
+[2026-07-26 01:03:32] [INFO] [main] GET /openapi.json -> 200 (6.2ms)
+[2026-07-26 01:03:55] [INFO] [main] GET /api/health -> 200 (1070.8ms)
+[2026-07-26 01:05:38] [INFO] [app.services.file_storage] Saved file 'Operating_Systems_Lecture_20_Slides.pptx' for session '607575f7c63d' -> C:\Users\Aya Abdelwahab\Downloads\Da7ee7-El-Dof3a\Da7ee7-El-Dof3a\uploads\607575f7c63d\Operating_Systems_Lecture_20_Slides.pptx
+[2026-07-26 01:05:38] [INFO] [app.services.file_storage] Saved file 'Operating_Systems_Exam_2022.pdf' for session '607575f7c63d' -> C:\Users\Aya Abdelwahab\Downloads\Da7ee7-El-Dof3a\Da7ee7-El-Dof3a\uploads\607575f7c63d\Operating_Systems_Exam_2022.pdf
+[2026-07-26 01:05:38] [INFO] [app.routers.upload] Session '607575f7c63d' created with files: ['Operating_Systems_Lecture_20_Slides.pptx', 'Operating_Systems_Exam_2022.pdf']
+[2026-07-26 01:05:43] [INFO] [main] POST /api/upload -> 200 (4203.9ms)
+[2026-07-26 01:05:43] [INFO] [main] OPTIONS /api/summary -> 200 (0.6ms)
+[2026-07-26 01:07:43] [INFO] [main] POST /api/summary -> 200 (120896.9ms)
+[2026-07-26 01:07:45] [INFO] [main] OPTIONS /api/summary -> 200 (0.4ms)
+[2026-07-26 01:09:21] [INFO] [main] POST /api/summary -> 200 (95329.3ms)
+[2026-07-26 01:09:47] [INFO] [main] GET /api/download -> 200 (1082.6ms)
+[2026-07-26 01:09:50] [ERROR] [app.routers.download] Download failed for session 607575f7c63d (solved_exam): Client error '404 Not Found' for url 'https://shudder-reviver-undercoat.ngrok-free.dev/download?session_id=607575f7c63d&file_type=solved_exam'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-26 01:09:50] [INFO] [main] GET /api/download -> 502 (904.1ms)
+[2026-07-26 01:09:50] [INFO] [main] GET /favicon.ico -> 404 (0.6ms)
+[2026-07-26 01:09:56] [INFO] [main] GET /api/download -> 200 (969.6ms)
+[2026-07-26 01:12:09] [ERROR] [app.routers.download] Download failed for session 607575f7c63d (solved_exam): Client error '404 Not Found' for url 'https://shudder-reviver-undercoat.ngrok-free.dev/download?session_id=607575f7c63d&file_type=solved_exam'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-26 01:12:09] [INFO] [main] GET /api/download -> 502 (1141.0ms)
+[2026-07-26 01:12:12] [INFO] [main] GET /api/download -> 200 (14.9ms)
+[2026-07-26 11:19:38] [INFO] [main] Da7ee7-El-Dof3a Backend v1.0.0 starting up (env=development)
+[2026-07-26 11:19:38] [INFO] [main] Kaggle AI base URL: https://shudder-reviver-undercoat.ngrok-free.dev
+[2026-07-26 11:20:53] [INFO] [app.services.file_storage] Saved file 'Operating_Systems_Lecture_20_Slides.pptx' for session '361953961f15' -> C:\Users\Aya Abdelwahab\Downloads\Da7ee7-El-Dof3a\Da7ee7-El-Dof3a\uploads\361953961f15\Operating_Systems_Lecture_20_Slides.pptx
+[2026-07-26 11:20:53] [INFO] [app.services.file_storage] Saved file 'Operating_Systems_Exam_2022.pdf' for session '361953961f15' -> C:\Users\Aya Abdelwahab\Downloads\Da7ee7-El-Dof3a\Da7ee7-El-Dof3a\uploads\361953961f15\Operating_Systems_Exam_2022.pdf
+[2026-07-26 11:20:53] [INFO] [app.services.file_storage] Saved file 'Operating_Systems_Exam_2023.pdf' for session '361953961f15' -> C:\Users\Aya Abdelwahab\Downloads\Da7ee7-El-Dof3a\Da7ee7-El-Dof3a\uploads\361953961f15\Operating_Systems_Exam_2023.pdf
+[2026-07-26 11:20:53] [INFO] [app.services.file_storage] Saved file 'Operating_Systems_Exam_2024.pdf' for session '361953961f15' -> C:\Users\Aya Abdelwahab\Downloads\Da7ee7-El-Dof3a\Da7ee7-El-Dof3a\uploads\361953961f15\Operating_Systems_Exam_2024.pdf
+[2026-07-26 11:20:53] [INFO] [app.routers.upload] Session '361953961f15' created with files: ['Operating_Systems_Lecture_20_Slides.pptx', 'Operating_Systems_Exam_2022.pdf', 'Operating_Systems_Exam_2023.pdf', 'Operating_Systems_Exam_2024.pdf']
+[2026-07-26 11:20:54] [ERROR] [app.routers.upload] Failed to reach Kaggle AI service: Server error '502 Bad Gateway' for url 'https://shudder-reviver-undercoat.ngrok-free.dev/ingest'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/502
+[2026-07-26 11:20:54] [INFO] [main] POST /api/upload -> 200 (1184.7ms)
+[2026-07-26 11:20:54] [INFO] [main] OPTIONS /api/summary -> 200 (0.3ms)
+[2026-07-26 11:20:55] [ERROR] [app.routers.summary] Summary generation failed for session 361953961f15: Server error '502 Bad Gateway' for url 'https://shudder-reviver-undercoat.ngrok-free.dev/generate-summary'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/502
+[2026-07-26 11:20:55] [INFO] [main] POST /api/summary -> 502 (1107.8ms)
+[2026-07-26 11:21:05] [INFO] [main] OPTIONS /api/summary -> 200 (0.2ms)
+[2026-07-26 11:21:06] [ERROR] [app.routers.summary] Summary generation failed for session 361953961f15: Server error '502 Bad Gateway' for url 'https://shudder-reviver-undercoat.ngrok-free.dev/generate-summary'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/502
+[2026-07-26 11:21:06] [INFO] [main] POST /api/summary -> 502 (882.5ms)
+[2026-07-26 11:21:16] [INFO] [main] OPTIONS /api/summary -> 200 (0.2ms)
+[2026-07-26 11:21:17] [ERROR] [app.routers.summary] Summary generation failed for session 361953961f15: Server error '502 Bad Gateway' for url 'https://shudder-reviver-undercoat.ngrok-free.dev/generate-summary'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/502
+[2026-07-26 11:21:17] [INFO] [main] POST /api/summary -> 502 (906.0ms)
+[2026-07-26 11:21:27] [INFO] [main] OPTIONS /api/summary -> 200 (0.2ms)
+[2026-07-26 11:21:28] [ERROR] [app.routers.summary] Summary generation failed for session 361953961f15: Server error '502 Bad Gateway' for url 'https://shudder-reviver-undercoat.ngrok-free.dev/generate-summary'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/502
+[2026-07-26 11:21:28] [INFO] [main] POST /api/summary -> 502 (1042.8ms)
+[2026-07-26 11:21:38] [INFO] [main] OPTIONS /api/summary -> 200 (0.2ms)
+[2026-07-26 11:21:39] [ERROR] [app.routers.summary] Summary generation failed for session 361953961f15: Server error '502 Bad Gateway' for url 'https://shudder-reviver-undercoat.ngrok-free.dev/generate-summary'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/502
+[2026-07-26 11:21:39] [INFO] [main] POST /api/summary -> 502 (914.5ms)
+[2026-07-26 11:21:49] [INFO] [main] OPTIONS /api/summary -> 200 (0.2ms)
+[2026-07-26 11:21:50] [ERROR] [app.routers.summary] Summary generation failed for session 361953961f15: Server error '500 Internal Server Error' for url 'https://shudder-reviver-undercoat.ngrok-free.dev/generate-summary'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500
+[2026-07-26 11:21:50] [INFO] [main] POST /api/summary -> 502 (897.2ms)
+[2026-07-26 11:22:00] [INFO] [main] OPTIONS /api/summary -> 200 (0.2ms)
+[2026-07-26 11:22:01] [ERROR] [app.routers.summary] Summary generation failed for session 361953961f15: Server error '500 Internal Server Error' for url 'https://shudder-reviver-undercoat.ngrok-free.dev/generate-summary'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500
+[2026-07-26 11:22:01] [INFO] [main] POST /api/summary -> 502 (954.5ms)
+[2026-07-26 11:22:11] [INFO] [main] OPTIONS /api/summary -> 200 (0.6ms)
+[2026-07-26 11:22:12] [ERROR] [app.routers.summary] Summary generation failed for session 361953961f15: Server error '500 Internal Server Error' for url 'https://shudder-reviver-undercoat.ngrok-free.dev/generate-summary'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500
+[2026-07-26 11:22:12] [INFO] [main] POST /api/summary -> 502 (865.7ms)
+[2026-07-26 11:27:08] [INFO] [main] Backend shutting down.
+[2026-07-26 11:27:12] [INFO] [main] Da7ee7-El-Dof3a Backend v1.0.0 starting up (env=development)
+[2026-07-26 11:27:12] [INFO] [main] Kaggle AI base URL: https://shudder-reviver-undercoat.ngrok-free.dev
+[2026-07-26 11:28:03] [INFO] [app.services.file_storage] Saved file 'Operating_Systems_Lecture_20_Slides.pptx' for session '630344eb0b43' -> C:\Users\Aya Abdelwahab\Downloads\Da7ee7-El-Dof3a\Da7ee7-El-Dof3a\uploads\630344eb0b43\Operating_Systems_Lecture_20_Slides.pptx
+[2026-07-26 11:28:03] [INFO] [app.services.file_storage] Saved file 'Operating_Systems_Exam_2022.pdf' for session '630344eb0b43' -> C:\Users\Aya Abdelwahab\Downloads\Da7ee7-El-Dof3a\Da7ee7-El-Dof3a\uploads\630344eb0b43\Operating_Systems_Exam_2022.pdf
+[2026-07-26 11:28:03] [INFO] [app.services.file_storage] Saved file 'Operating_Systems_Exam_2023.pdf' for session '630344eb0b43' -> C:\Users\Aya Abdelwahab\Downloads\Da7ee7-El-Dof3a\Da7ee7-El-Dof3a\uploads\630344eb0b43\Operating_Systems_Exam_2023.pdf
+[2026-07-26 11:28:03] [INFO] [app.services.file_storage] Saved file 'Operating_Systems_Exam_2024.pdf' for session '630344eb0b43' -> C:\Users\Aya Abdelwahab\Downloads\Da7ee7-El-Dof3a\Da7ee7-El-Dof3a\uploads\630344eb0b43\Operating_Systems_Exam_2024.pdf
+[2026-07-26 11:28:03] [INFO] [app.routers.upload] Session '630344eb0b43' created with files: ['Operating_Systems_Lecture_20_Slides.pptx', 'Operating_Systems_Exam_2022.pdf', 'Operating_Systems_Exam_2023.pdf', 'Operating_Systems_Exam_2024.pdf']
+[2026-07-26 11:28:08] [ERROR] [app.routers.upload] Failed to reach Kaggle AI service: Server error '500 Internal Server Error' for url 'https://shudder-reviver-undercoat.ngrok-free.dev/ingest'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500
+[2026-07-26 11:28:08] [INFO] [main] POST /api/upload -> 200 (4696.6ms)
+[2026-07-26 11:28:08] [INFO] [main] OPTIONS /api/summary -> 200 (0.4ms)
+[2026-07-26 11:28:10] [ERROR] [app.routers.summary] Summary generation failed for session 630344eb0b43: Server disconnected without sending a response.
+[2026-07-26 11:28:10] [INFO] [main] POST /api/summary -> 502 (2080.0ms)
+[2026-07-26 11:28:20] [INFO] [main] OPTIONS /api/summary -> 200 (0.3ms)
+[2026-07-26 11:28:23] [ERROR] [app.routers.summary] Summary generation failed for session 630344eb0b43: Server disconnected without sending a response.
+[2026-07-26 11:28:23] [INFO] [main] POST /api/summary -> 502 (3057.7ms)
+[2026-07-26 11:28:33] [INFO] [main] OPTIONS /api/summary -> 200 (0.2ms)
+[2026-07-26 11:28:36] [ERROR] [app.routers.summary] Summary generation failed for session 630344eb0b43: Server disconnected without sending a response.
+[2026-07-26 11:28:36] [INFO] [main] POST /api/summary -> 502 (2522.3ms)
+[2026-07-26 11:28:46] [INFO] [main] OPTIONS /api/summary -> 200 (0.3ms)
+[2026-07-26 11:28:47] [ERROR] [app.routers.summary] Summary generation failed for session 630344eb0b43: Server error '500 Internal Server Error' for url 'https://shudder-reviver-undercoat.ngrok-free.dev/generate-summary'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500
+[2026-07-26 11:28:47] [INFO] [main] POST /api/summary -> 502 (908.9ms)
+[2026-07-26 11:28:57] [INFO] [main] OPTIONS /api/summary -> 200 (0.2ms)
+[2026-07-26 11:29:00] [ERROR] [app.routers.summary] Summary generation failed for session 630344eb0b43: Server disconnected without sending a response.
+[2026-07-26 11:29:00] [INFO] [main] POST /api/summary -> 502 (2999.9ms)
+[2026-07-26 11:29:10] [INFO] [main] OPTIONS /api/summary -> 200 (0.2ms)
+[2026-07-26 11:29:15] [ERROR] [app.routers.summary] Summary generation failed for session 630344eb0b43: Server disconnected without sending a response.
+[2026-07-26 11:29:15] [INFO] [main] POST /api/summary -> 502 (5356.6ms)
+[2026-07-26 11:29:25] [INFO] [main] OPTIONS /api/summary -> 200 (0.8ms)
+[2026-07-26 11:29:28] [ERROR] [app.routers.summary] Summary generation failed for session 630344eb0b43: Server disconnected without sending a response.
+[2026-07-26 11:29:28] [INFO] [main] POST /api/summary -> 502 (3330.8ms)
+[2026-07-26 11:29:38] [INFO] [main] OPTIONS /api/summary -> 200 (0.3ms)
+[2026-07-26 11:29:41] [ERROR] [app.routers.summary] Summary generation failed for session 630344eb0b43: Server disconnected without sending a response.
+[2026-07-26 11:29:41] [INFO] [main] POST /api/summary -> 502 (2498.8ms)
+[2026-07-26 11:29:51] [INFO] [main] OPTIONS /api/summary -> 200 (0.2ms)
+[2026-07-26 11:29:54] [ERROR] [app.routers.summary] Summary generation failed for session 630344eb0b43: Server disconnected without sending a response.
+[2026-07-26 11:29:54] [INFO] [main] POST /api/summary -> 502 (3426.2ms)
+[2026-07-26 11:30:04] [INFO] [main] OPTIONS /api/summary -> 200 (0.2ms)
+[2026-07-26 11:30:07] [ERROR] [app.routers.summary] Summary generation failed for session 630344eb0b43: Server error '500 Internal Server Error' for url 'https://shudder-reviver-undercoat.ngrok-free.dev/generate-summary'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500
+[2026-07-26 11:30:07] [INFO] [main] POST /api/summary -> 502 (3037.9ms)
+[2026-07-26 11:30:17] [INFO] [main] OPTIONS /api/summary -> 200 (0.7ms)
+[2026-07-26 11:30:22] [ERROR] [app.routers.summary] Summary generation failed for session 630344eb0b43: Server disconnected without sending a response.
+[2026-07-26 11:30:22] [INFO] [main] POST /api/summary -> 502 (4902.9ms)
+[2026-07-26 11:30:32] [INFO] [main] OPTIONS /api/summary -> 200 (0.2ms)
+[2026-07-26 11:30:35] [ERROR] [app.routers.summary] Summary generation failed for session 630344eb0b43: Server disconnected without sending a response.
+[2026-07-26 11:30:35] [INFO] [main] POST /api/summary -> 502 (3110.6ms)
+[2026-07-26 11:30:45] [INFO] [main] OPTIONS /api/summary -> 200 (0.2ms)
+[2026-07-26 11:30:49] [ERROR] [app.routers.summary] Summary generation failed for session 630344eb0b43: Server disconnected without sending a response.
+[2026-07-26 11:30:49] [INFO] [main] POST /api/summary -> 502 (3296.7ms)
+[2026-07-26 11:30:59] [INFO] [main] OPTIONS /api/summary -> 200 (0.2ms)
+[2026-07-26 11:31:01] [ERROR] [app.routers.summary] Summary generation failed for session 630344eb0b43: Server disconnected without sending a response.
+[2026-07-26 11:31:01] [INFO] [main] POST /api/summary -> 502 (2644.7ms)
+[2026-07-26 11:31:11] [INFO] [main] OPTIONS /api/summary -> 200 (0.2ms)
+[2026-07-26 11:31:13] [ERROR] [app.routers.summary] Summary generation failed for session 630344eb0b43: Server error '500 Internal Server Error' for url 'https://shudder-reviver-undercoat.ngrok-free.dev/generate-summary'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500
+[2026-07-26 11:31:13] [INFO] [main] POST /api/summary -> 502 (1252.1ms)
+[2026-07-26 11:31:23] [INFO] [main] OPTIONS /api/summary -> 200 (0.8ms)
+[2026-07-26 11:31:24] [ERROR] [app.routers.summary] Summary generation failed for session 630344eb0b43: Client error '404 Not Found' for url 'https://shudder-reviver-undercoat.ngrok-free.dev/generate-summary'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-26 11:31:24] [INFO] [main] POST /api/summary -> 502 (821.1ms)
+[2026-07-26 11:31:34] [INFO] [main] OPTIONS /api/summary -> 200 (0.6ms)
+[2026-07-26 11:31:35] [ERROR] [app.routers.summary] Summary generation failed for session 630344eb0b43: Client error '404 Not Found' for url 'https://shudder-reviver-undercoat.ngrok-free.dev/generate-summary'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-26 11:31:35] [INFO] [main] POST /api/summary -> 502 (977.1ms)
+[2026-07-26 11:31:45] [INFO] [main] OPTIONS /api/summary -> 200 (0.9ms)
+[2026-07-26 11:31:45] [ERROR] [app.routers.summary] Summary generation failed for session 630344eb0b43: Client error '404 Not Found' for url 'https://shudder-reviver-undercoat.ngrok-free.dev/generate-summary'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-26 11:31:45] [INFO] [main] POST /api/summary -> 502 (745.9ms)
+[2026-07-26 11:31:55] [INFO] [main] OPTIONS /api/summary -> 200 (0.2ms)
+[2026-07-26 11:31:56] [ERROR] [app.routers.summary] Summary generation failed for session 630344eb0b43: Client error '404 Not Found' for url 'https://shudder-reviver-undercoat.ngrok-free.dev/generate-summary'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-26 11:31:56] [INFO] [main] POST /api/summary -> 502 (914.1ms)
+[2026-07-26 11:32:06] [INFO] [main] OPTIONS /api/summary -> 200 (0.8ms)
+[2026-07-26 11:32:07] [ERROR] [app.routers.summary] Summary generation failed for session 630344eb0b43: Client error '404 Not Found' for url 'https://shudder-reviver-undercoat.ngrok-free.dev/generate-summary'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-26 11:32:07] [INFO] [main] POST /api/summary -> 502 (1243.7ms)
+[2026-07-26 11:32:17] [INFO] [main] OPTIONS /api/summary -> 200 (0.2ms)
+[2026-07-26 11:32:18] [ERROR] [app.routers.summary] Summary generation failed for session 630344eb0b43: Client error '404 Not Found' for url 'https://shudder-reviver-undercoat.ngrok-free.dev/generate-summary'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-26 11:32:18] [INFO] [main] POST /api/summary -> 502 (740.9ms)
+[2026-07-26 11:32:28] [INFO] [main] OPTIONS /api/summary -> 200 (0.2ms)
+[2026-07-26 11:32:29] [ERROR] [app.routers.summary] Summary generation failed for session 630344eb0b43: Client error '404 Not Found' for url 'https://shudder-reviver-undercoat.ngrok-free.dev/generate-summary'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-26 11:32:29] [INFO] [main] POST /api/summary -> 502 (925.8ms)
+[2026-07-26 11:32:39] [INFO] [main] OPTIONS /api/summary -> 200 (0.3ms)
+[2026-07-26 11:32:40] [ERROR] [app.routers.summary] Summary generation failed for session 630344eb0b43: Client error '404 Not Found' for url 'https://shudder-reviver-undercoat.ngrok-free.dev/generate-summary'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-26 11:32:40] [INFO] [main] POST /api/summary -> 502 (799.1ms)
+[2026-07-26 11:32:50] [INFO] [main] OPTIONS /api/summary -> 200 (0.2ms)
+[2026-07-26 11:32:53] [ERROR] [app.routers.summary] Summary generation failed for session 630344eb0b43: Server disconnected without sending a response.
+[2026-07-26 11:32:53] [INFO] [main] POST /api/summary -> 502 (3468.6ms)
+[2026-07-26 11:33:03] [INFO] [main] OPTIONS /api/summary -> 200 (0.3ms)
+[2026-07-26 11:33:07] [ERROR] [app.routers.summary] Summary generation failed for session 630344eb0b43: Server disconnected without sending a response.
+[2026-07-26 11:33:07] [INFO] [main] POST /api/summary -> 502 (3659.7ms)
+[2026-07-26 11:33:10] [INFO] [main] Backend shutting down.
+[2026-07-26 11:52:53] [INFO] [main] Da7ee7-El-Dof3a Backend v1.0.0 starting up (env=development)
+[2026-07-26 11:52:53] [INFO] [main] Kaggle AI base URL: https://shudder-reviver-undercoat.ngrok-free.dev
+[2026-07-26 11:55:42] [INFO] [app.services.file_storage] Saved file 'Operating_Systems_Lecture_20_Slides.pptx' for session 'e4c39f93142b' -> C:\Users\Aya Abdelwahab\Downloads\Da7ee7-El-Dof3a\Da7ee7-El-Dof3a\uploads\e4c39f93142b\Operating_Systems_Lecture_20_Slides.pptx
+[2026-07-26 11:55:42] [INFO] [app.services.file_storage] Saved file 'Operating_Systems_Exam_2022.pdf' for session 'e4c39f93142b' -> C:\Users\Aya Abdelwahab\Downloads\Da7ee7-El-Dof3a\Da7ee7-El-Dof3a\uploads\e4c39f93142b\Operating_Systems_Exam_2022.pdf
+[2026-07-26 11:55:42] [INFO] [app.services.file_storage] Saved file 'Operating_Systems_Exam_2023.pdf' for session 'e4c39f93142b' -> C:\Users\Aya Abdelwahab\Downloads\Da7ee7-El-Dof3a\Da7ee7-El-Dof3a\uploads\e4c39f93142b\Operating_Systems_Exam_2023.pdf
+[2026-07-26 11:55:42] [INFO] [app.services.file_storage] Saved file 'Operating_Systems_Exam_2024.pdf' for session 'e4c39f93142b' -> C:\Users\Aya Abdelwahab\Downloads\Da7ee7-El-Dof3a\Da7ee7-El-Dof3a\uploads\e4c39f93142b\Operating_Systems_Exam_2024.pdf
+[2026-07-26 11:55:42] [INFO] [app.routers.upload] Session 'e4c39f93142b' created with files: ['Operating_Systems_Lecture_20_Slides.pptx', 'Operating_Systems_Exam_2022.pdf', 'Operating_Systems_Exam_2023.pdf', 'Operating_Systems_Exam_2024.pdf']
+[2026-07-26 11:55:45] [INFO] [main] POST /api/upload -> 200 (2542.5ms)
+[2026-07-26 11:55:45] [INFO] [main] OPTIONS /api/summary -> 200 (0.3ms)
+[2026-07-26 11:57:41] [INFO] [main] POST /api/summary -> 200 (116337.3ms)
+[2026-07-26 11:58:29] [INFO] [main] GET /api/download -> 200 (1074.3ms)
+[2026-07-26 11:58:33] [ERROR] [app.routers.download] Download failed for session e4c39f93142b (solved_exam): Client error '404 Not Found' for url 'https://shudder-reviver-undercoat.ngrok-free.dev/download?session_id=e4c39f93142b&file_type=solved_exam'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-26 11:58:33] [INFO] [main] GET /api/download -> 502 (878.1ms)
+[2026-07-26 11:58:33] [INFO] [main] GET /favicon.ico -> 404 (1.1ms)
+[2026-07-26 11:58:52] [INFO] [main] GET /api/download -> 200 (866.3ms)
+[2026-07-26 15:20:43] [INFO] [main] Da7ee7-El-Dof3a Backend v1.0.0 starting up (env=development)
+[2026-07-26 15:20:43] [INFO] [main] Kaggle AI base URL: https://shudder-reviver-undercoat.ngrok-free.dev
+[2026-07-26 15:21:50] [INFO] [app.services.file_storage] Saved file 'Operating_Systems_Lecture_20_Slides.pptx' for session '4f3ff6d1da9c' -> C:\Users\Aya Abdelwahab\Downloads\Da7ee7-El-Dof3a\Da7ee7-El-Dof3a\uploads\4f3ff6d1da9c\Operating_Systems_Lecture_20_Slides.pptx
+[2026-07-26 15:21:50] [INFO] [app.services.file_storage] Saved file 'Operating_Systems_Exam_2022.pdf' for session '4f3ff6d1da9c' -> C:\Users\Aya Abdelwahab\Downloads\Da7ee7-El-Dof3a\Da7ee7-El-Dof3a\uploads\4f3ff6d1da9c\Operating_Systems_Exam_2022.pdf
+[2026-07-26 15:21:50] [INFO] [app.services.file_storage] Saved file 'Operating_Systems_Exam_2023.pdf' for session '4f3ff6d1da9c' -> C:\Users\Aya Abdelwahab\Downloads\Da7ee7-El-Dof3a\Da7ee7-El-Dof3a\uploads\4f3ff6d1da9c\Operating_Systems_Exam_2023.pdf
+[2026-07-26 15:21:50] [INFO] [app.services.file_storage] Saved file 'Operating_Systems_Exam_2024.pdf' for session '4f3ff6d1da9c' -> C:\Users\Aya Abdelwahab\Downloads\Da7ee7-El-Dof3a\Da7ee7-El-Dof3a\uploads\4f3ff6d1da9c\Operating_Systems_Exam_2024.pdf
+[2026-07-26 15:21:50] [INFO] [app.routers.upload] Session '4f3ff6d1da9c' created with files: ['Operating_Systems_Lecture_20_Slides.pptx', 'Operating_Systems_Exam_2022.pdf', 'Operating_Systems_Exam_2023.pdf', 'Operating_Systems_Exam_2024.pdf']
+[2026-07-26 15:22:08] [INFO] [main] POST /api/upload -> 200 (18084.3ms)
+[2026-07-26 15:22:08] [INFO] [main] OPTIONS /api/summary -> 200 (0.4ms)
+[2026-07-26 15:23:04] [INFO] [main] POST /api/summary -> 200 (56259.0ms)
+[2026-07-26 15:23:32] [INFO] [main] GET /api/download -> 200 (2899.9ms)
+[2026-07-26 15:23:35] [ERROR] [app.routers.download] Download failed for session 4f3ff6d1da9c (solved_exam): Client error '404 Not Found' for url 'https://shudder-reviver-undercoat.ngrok-free.dev/download?session_id=4f3ff6d1da9c&file_type=solved_exam'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-26 15:23:35] [INFO] [main] GET /api/download -> 502 (2238.1ms)
+[2026-07-26 15:23:36] [INFO] [main] GET /favicon.ico -> 404 (2.4ms)
+[2026-07-26 15:23:47] [INFO] [main] GET /api/download -> 200 (2096.9ms)
+[2026-07-26 15:40:23] [INFO] [main] Backend shutting down.
+[2026-07-26 16:24:14] [INFO] [main] Da7ee7-El-Dof3a Backend v1.0.0 starting up (env=development)
+[2026-07-26 16:24:14] [INFO] [main] Kaggle AI base URL: https://shudder-reviver-undercoat.ngrok-free.dev
+[2026-07-26 16:24:25] [INFO] [main] Backend shutting down.
+[2026-07-26 16:25:29] [INFO] [main] Da7ee7-El-Dof3a Backend v1.0.0 starting up (env=development)
+[2026-07-26 16:25:29] [INFO] [main] Kaggle AI base URL: https://shudder-reviver-undercoat.ngrok-free.dev
+[2026-07-26 16:31:03] [INFO] [main] Da7ee7-El-Dof3a Backend v1.0.0 starting up (env=development)
+[2026-07-26 16:31:03] [INFO] [main] Kaggle AI base URL: https://shudder-reviver-undercoat.ngrok-free.dev
+[2026-07-26 16:31:59] [INFO] [app.services.file_storage] Saved file 'Operating_Systems_Lecture_20_Slides.pptx' for session '7eee16fd1152' -> C:\Users\Aya Abdelwahab\Downloads\Da7ee7-El-Dof3a\Da7ee7-El-Dof3a\uploads\7eee16fd1152\Operating_Systems_Lecture_20_Slides.pptx
+[2026-07-26 16:31:59] [INFO] [app.services.file_storage] Saved file 'Operating_Systems_Exam_2022.pdf' for session '7eee16fd1152' -> C:\Users\Aya Abdelwahab\Downloads\Da7ee7-El-Dof3a\Da7ee7-El-Dof3a\uploads\7eee16fd1152\Operating_Systems_Exam_2022.pdf
+[2026-07-26 16:31:59] [INFO] [app.services.file_storage] Saved file 'Operating_Systems_Exam_2023.pdf' for session '7eee16fd1152' -> C:\Users\Aya Abdelwahab\Downloads\Da7ee7-El-Dof3a\Da7ee7-El-Dof3a\uploads\7eee16fd1152\Operating_Systems_Exam_2023.pdf
+[2026-07-26 16:31:59] [INFO] [app.services.file_storage] Saved file 'Operating_Systems_Exam_2024.pdf' for session '7eee16fd1152' -> C:\Users\Aya Abdelwahab\Downloads\Da7ee7-El-Dof3a\Da7ee7-El-Dof3a\uploads\7eee16fd1152\Operating_Systems_Exam_2024.pdf
+[2026-07-26 16:31:59] [INFO] [app.routers.upload] Session '7eee16fd1152' created with files: ['Operating_Systems_Lecture_20_Slides.pptx', 'Operating_Systems_Exam_2022.pdf', 'Operating_Systems_Exam_2023.pdf', 'Operating_Systems_Exam_2024.pdf']
+[2026-07-26 16:32:00] [ERROR] [app.routers.upload] Failed to reach Kaggle AI service: Client error '404 Not Found' for url 'https://shudder-reviver-undercoat.ngrok-free.dev/ingest'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-26 16:32:00] [INFO] [main] POST /api/upload -> 200 (836.3ms)
+[2026-07-26 16:32:00] [INFO] [main] OPTIONS /api/summary -> 200 (1.7ms)
+[2026-07-26 16:32:01] [ERROR] [app.routers.summary] Summary generation failed for session 7eee16fd1152: Client error '404 Not Found' for url 'https://shudder-reviver-undercoat.ngrok-free.dev/generate-summary'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-26 16:32:01] [INFO] [main] POST /api/summary -> 502 (730.3ms)
+[2026-07-26 16:32:11] [INFO] [main] OPTIONS /api/summary -> 200 (1.3ms)
+[2026-07-26 16:32:11] [ERROR] [app.routers.summary] Summary generation failed for session 7eee16fd1152: Client error '404 Not Found' for url 'https://shudder-reviver-undercoat.ngrok-free.dev/generate-summary'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-26 16:32:11] [INFO] [main] POST /api/summary -> 502 (621.3ms)
+[2026-07-26 16:32:21] [INFO] [main] OPTIONS /api/summary -> 200 (0.2ms)
+[2026-07-26 16:32:22] [ERROR] [app.routers.summary] Summary generation failed for session 7eee16fd1152: Client error '404 Not Found' for url 'https://shudder-reviver-undercoat.ngrok-free.dev/generate-summary'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-26 16:32:22] [INFO] [main] POST /api/summary -> 502 (631.5ms)
+[2026-07-26 16:32:32] [INFO] [main] OPTIONS /api/summary -> 200 (0.3ms)
+[2026-07-26 16:32:33] [ERROR] [app.routers.summary] Summary generation failed for session 7eee16fd1152: Client error '404 Not Found' for url 'https://shudder-reviver-undercoat.ngrok-free.dev/generate-summary'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-26 16:32:33] [INFO] [main] POST /api/summary -> 502 (788.2ms)
+[2026-07-26 16:32:43] [INFO] [main] OPTIONS /api/summary -> 200 (0.8ms)
+[2026-07-26 16:32:44] [ERROR] [app.routers.summary] Summary generation failed for session 7eee16fd1152: Client error '404 Not Found' for url 'https://shudder-reviver-undercoat.ngrok-free.dev/generate-summary'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-26 16:32:44] [INFO] [main] POST /api/summary -> 502 (645.1ms)
+[2026-07-26 16:32:54] [INFO] [main] OPTIONS /api/summary -> 200 (1.7ms)
+[2026-07-26 16:32:54] [ERROR] [app.routers.summary] Summary generation failed for session 7eee16fd1152: Client error '404 Not Found' for url 'https://shudder-reviver-undercoat.ngrok-free.dev/generate-summary'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-26 16:32:54] [INFO] [main] POST /api/summary -> 502 (656.1ms)
+[2026-07-26 16:33:04] [INFO] [main] OPTIONS /api/summary -> 200 (1.0ms)
+[2026-07-26 16:33:05] [ERROR] [app.routers.summary] Summary generation failed for session 7eee16fd1152: Client error '404 Not Found' for url 'https://shudder-reviver-undercoat.ngrok-free.dev/generate-summary'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-26 16:33:05] [INFO] [main] POST /api/summary -> 502 (894.3ms)
+[2026-07-26 16:33:15] [INFO] [main] OPTIONS /api/summary -> 200 (0.3ms)
+[2026-07-26 16:33:16] [ERROR] [app.routers.summary] Summary generation failed for session 7eee16fd1152: Client error '404 Not Found' for url 'https://shudder-reviver-undercoat.ngrok-free.dev/generate-summary'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-26 16:33:16] [INFO] [main] POST /api/summary -> 502 (934.1ms)
+[2026-07-26 16:33:26] [INFO] [main] OPTIONS /api/summary -> 200 (0.3ms)
+[2026-07-26 16:33:27] [ERROR] [app.routers.summary] Summary generation failed for session 7eee16fd1152: Client error '404 Not Found' for url 'https://shudder-reviver-undercoat.ngrok-free.dev/generate-summary'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-26 16:33:27] [INFO] [main] POST /api/summary -> 502 (832.2ms)
+[2026-07-26 16:33:37] [INFO] [main] OPTIONS /api/summary -> 200 (0.8ms)
+[2026-07-26 16:33:38] [ERROR] [app.routers.summary] Summary generation failed for session 7eee16fd1152: Client error '404 Not Found' for url 'https://shudder-reviver-undercoat.ngrok-free.dev/generate-summary'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-26 16:33:38] [INFO] [main] POST /api/summary -> 502 (623.7ms)
+[2026-07-26 16:33:48] [INFO] [main] OPTIONS /api/summary -> 200 (0.4ms)
+[2026-07-26 16:33:48] [ERROR] [app.routers.summary] Summary generation failed for session 7eee16fd1152: Client error '404 Not Found' for url 'https://shudder-reviver-undercoat.ngrok-free.dev/generate-summary'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-26 16:33:48] [INFO] [main] POST /api/summary -> 502 (632.2ms)
+[2026-07-26 16:33:58] [INFO] [main] OPTIONS /api/summary -> 200 (0.4ms)
+[2026-07-26 16:33:59] [ERROR] [app.routers.summary] Summary generation failed for session 7eee16fd1152: Client error '404 Not Found' for url 'https://shudder-reviver-undercoat.ngrok-free.dev/generate-summary'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-26 16:33:59] [INFO] [main] POST /api/summary -> 502 (737.8ms)
+[2026-07-26 16:34:09] [INFO] [main] OPTIONS /api/summary -> 200 (0.2ms)
+[2026-07-26 16:34:10] [ERROR] [app.routers.summary] Summary generation failed for session 7eee16fd1152: Client error '404 Not Found' for url 'https://shudder-reviver-undercoat.ngrok-free.dev/generate-summary'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-26 16:34:10] [INFO] [main] POST /api/summary -> 502 (746.0ms)
+[2026-07-26 16:34:20] [INFO] [main] OPTIONS /api/summary -> 200 (0.6ms)
+[2026-07-26 16:34:20] [ERROR] [app.routers.summary] Summary generation failed for session 7eee16fd1152: Client error '404 Not Found' for url 'https://shudder-reviver-undercoat.ngrok-free.dev/generate-summary'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-26 16:34:20] [INFO] [main] POST /api/summary -> 502 (639.9ms)
+[2026-07-26 16:34:30] [INFO] [main] OPTIONS /api/summary -> 200 (0.5ms)
+[2026-07-26 16:34:31] [ERROR] [app.routers.summary] Summary generation failed for session 7eee16fd1152: Client error '404 Not Found' for url 'https://shudder-reviver-undercoat.ngrok-free.dev/generate-summary'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-26 16:34:31] [INFO] [main] POST /api/summary -> 502 (660.2ms)
+[2026-07-26 16:34:41] [INFO] [main] OPTIONS /api/summary -> 200 (0.3ms)
+[2026-07-26 16:34:42] [ERROR] [app.routers.summary] Summary generation failed for session 7eee16fd1152: Client error '404 Not Found' for url 'https://shudder-reviver-undercoat.ngrok-free.dev/generate-summary'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-26 16:34:42] [INFO] [main] POST /api/summary -> 502 (956.9ms)
+[2026-07-26 16:34:52] [INFO] [main] OPTIONS /api/summary -> 200 (0.9ms)
+[2026-07-26 16:34:53] [ERROR] [app.routers.summary] Summary generation failed for session 7eee16fd1152: Client error '404 Not Found' for url 'https://shudder-reviver-undercoat.ngrok-free.dev/generate-summary'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-26 16:34:53] [INFO] [main] POST /api/summary -> 502 (779.1ms)
+[2026-07-26 16:35:03] [INFO] [main] OPTIONS /api/summary -> 200 (0.4ms)
+[2026-07-26 16:35:04] [ERROR] [app.routers.summary] Summary generation failed for session 7eee16fd1152: Client error '404 Not Found' for url 'https://shudder-reviver-undercoat.ngrok-free.dev/generate-summary'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-26 16:35:04] [INFO] [main] POST /api/summary -> 502 (729.2ms)
+[2026-07-26 16:35:14] [INFO] [main] OPTIONS /api/summary -> 200 (0.2ms)
+[2026-07-26 16:35:14] [ERROR] [app.routers.summary] Summary generation failed for session 7eee16fd1152: Client error '404 Not Found' for url 'https://shudder-reviver-undercoat.ngrok-free.dev/generate-summary'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-26 16:35:14] [INFO] [main] POST /api/summary -> 502 (745.6ms)
+[2026-07-26 16:35:24] [INFO] [main] OPTIONS /api/summary -> 200 (0.2ms)
+[2026-07-26 16:35:25] [ERROR] [app.routers.summary] Summary generation failed for session 7eee16fd1152: Client error '404 Not Found' for url 'https://shudder-reviver-undercoat.ngrok-free.dev/generate-summary'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-26 16:35:25] [INFO] [main] POST /api/summary -> 502 (680.3ms)
+[2026-07-26 16:35:35] [INFO] [main] OPTIONS /api/summary -> 200 (0.2ms)
+[2026-07-26 16:35:36] [ERROR] [app.routers.summary] Summary generation failed for session 7eee16fd1152: Client error '404 Not Found' for url 'https://shudder-reviver-undercoat.ngrok-free.dev/generate-summary'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-26 16:35:36] [INFO] [main] POST /api/summary -> 502 (691.8ms)
+[2026-07-26 16:35:46] [INFO] [main] OPTIONS /api/summary -> 200 (0.2ms)
+[2026-07-26 16:35:47] [ERROR] [app.routers.summary] Summary generation failed for session 7eee16fd1152: Client error '404 Not Found' for url 'https://shudder-reviver-undercoat.ngrok-free.dev/generate-summary'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-26 16:35:47] [INFO] [main] POST /api/summary -> 502 (686.5ms)
+[2026-07-26 16:35:57] [INFO] [main] OPTIONS /api/summary -> 200 (0.3ms)
+[2026-07-26 16:35:57] [ERROR] [app.routers.summary] Summary generation failed for session 7eee16fd1152: Client error '404 Not Found' for url 'https://shudder-reviver-undercoat.ngrok-free.dev/generate-summary'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-26 16:35:57] [INFO] [main] POST /api/summary -> 502 (690.2ms)
+[2026-07-26 16:36:07] [INFO] [main] OPTIONS /api/summary -> 200 (0.3ms)
+[2026-07-26 16:36:08] [ERROR] [app.routers.summary] Summary generation failed for session 7eee16fd1152: Client error '404 Not Found' for url 'https://shudder-reviver-undercoat.ngrok-free.dev/generate-summary'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-26 16:36:08] [INFO] [main] POST /api/summary -> 502 (630.8ms)
+[2026-07-26 16:36:18] [INFO] [main] OPTIONS /api/summary -> 200 (0.2ms)
+[2026-07-26 16:36:19] [ERROR] [app.routers.summary] Summary generation failed for session 7eee16fd1152: Client error '404 Not Found' for url 'https://shudder-reviver-undercoat.ngrok-free.dev/generate-summary'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-26 16:36:19] [INFO] [main] POST /api/summary -> 502 (760.9ms)
+[2026-07-26 16:36:29] [INFO] [main] OPTIONS /api/summary -> 200 (0.9ms)
+[2026-07-26 16:36:29] [ERROR] [app.routers.summary] Summary generation failed for session 7eee16fd1152: Client error '404 Not Found' for url 'https://shudder-reviver-undercoat.ngrok-free.dev/generate-summary'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-26 16:36:29] [INFO] [main] POST /api/summary -> 502 (683.5ms)
+[2026-07-26 16:36:39] [INFO] [main] OPTIONS /api/summary -> 200 (0.2ms)
+[2026-07-26 16:36:41] [ERROR] [app.routers.summary] Summary generation failed for session 7eee16fd1152: Server disconnected without sending a response.
+[2026-07-26 16:36:41] [INFO] [main] POST /api/summary -> 502 (1950.4ms)
+[2026-07-26 16:36:51] [INFO] [main] OPTIONS /api/summary -> 200 (0.5ms)
+[2026-07-26 16:36:56] [ERROR] [app.routers.summary] Summary generation failed for session 7eee16fd1152: Server disconnected without sending a response.
+[2026-07-26 16:36:56] [INFO] [main] POST /api/summary -> 502 (5087.7ms)
+[2026-07-26 16:37:06] [INFO] [main] OPTIONS /api/summary -> 200 (0.5ms)
+[2026-07-26 16:37:07] [ERROR] [app.routers.summary] Summary generation failed for session 7eee16fd1152: Client error '404 Not Found' for url 'https://shudder-reviver-undercoat.ngrok-free.dev/generate-summary'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-26 16:37:07] [INFO] [main] POST /api/summary -> 502 (1055.3ms)
+[2026-07-26 16:37:17] [INFO] [main] OPTIONS /api/summary -> 200 (0.4ms)
+[2026-07-26 16:37:19] [ERROR] [app.routers.summary] Summary generation failed for session 7eee16fd1152: Client error '404 Not Found' for url 'https://shudder-reviver-undercoat.ngrok-free.dev/generate-summary'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-26 16:37:19] [INFO] [main] POST /api/summary -> 502 (1552.5ms)
+[2026-07-26 16:37:29] [INFO] [main] OPTIONS /api/summary -> 200 (0.3ms)
+[2026-07-26 16:37:30] [ERROR] [app.routers.summary] Summary generation failed for session 7eee16fd1152: Client error '404 Not Found' for url 'https://shudder-reviver-undercoat.ngrok-free.dev/generate-summary'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-26 16:37:30] [INFO] [main] POST /api/summary -> 502 (705.2ms)
+[2026-07-26 16:37:40] [INFO] [main] OPTIONS /api/summary -> 200 (0.3ms)
+[2026-07-26 16:37:42] [ERROR] [app.routers.summary] Summary generation failed for session 7eee16fd1152: Client error '404 Not Found' for url 'https://shudder-reviver-undercoat.ngrok-free.dev/generate-summary'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-26 16:37:42] [INFO] [main] POST /api/summary -> 502 (2494.5ms)
+[2026-07-26 16:37:52] [INFO] [main] OPTIONS /api/summary -> 200 (0.2ms)
+[2026-07-26 16:37:53] [ERROR] [app.routers.summary] Summary generation failed for session 7eee16fd1152: Client error '404 Not Found' for url 'https://shudder-reviver-undercoat.ngrok-free.dev/generate-summary'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-26 16:37:53] [INFO] [main] POST /api/summary -> 502 (755.2ms)
+[2026-07-26 16:38:03] [INFO] [main] OPTIONS /api/summary -> 200 (0.4ms)
+[2026-07-26 16:38:04] [ERROR] [app.routers.summary] Summary generation failed for session 7eee16fd1152: Client error '404 Not Found' for url 'https://shudder-reviver-undercoat.ngrok-free.dev/generate-summary'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-26 16:38:04] [INFO] [main] POST /api/summary -> 502 (664.3ms)
+[2026-07-26 16:38:14] [INFO] [main] OPTIONS /api/summary -> 200 (0.2ms)
+[2026-07-26 16:38:14] [ERROR] [app.routers.summary] Summary generation failed for session 7eee16fd1152: Client error '404 Not Found' for url 'https://shudder-reviver-undercoat.ngrok-free.dev/generate-summary'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-26 16:38:14] [INFO] [main] POST /api/summary -> 502 (693.7ms)
+[2026-07-26 16:38:24] [INFO] [main] OPTIONS /api/summary -> 200 (0.4ms)
+[2026-07-26 16:38:25] [ERROR] [app.routers.summary] Summary generation failed for session 7eee16fd1152: Client error '404 Not Found' for url 'https://shudder-reviver-undercoat.ngrok-free.dev/generate-summary'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-26 16:38:25] [INFO] [main] POST /api/summary -> 502 (779.7ms)
+[2026-07-26 16:38:35] [INFO] [main] OPTIONS /api/summary -> 200 (0.2ms)
+[2026-07-26 16:38:36] [ERROR] [app.routers.summary] Summary generation failed for session 7eee16fd1152: Client error '404 Not Found' for url 'https://shudder-reviver-undercoat.ngrok-free.dev/generate-summary'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-26 16:38:36] [INFO] [main] POST /api/summary -> 502 (639.6ms)
+[2026-07-26 16:38:46] [INFO] [main] OPTIONS /api/summary -> 200 (0.3ms)
+[2026-07-26 16:38:47] [ERROR] [app.routers.summary] Summary generation failed for session 7eee16fd1152: Client error '404 Not Found' for url 'https://shudder-reviver-undercoat.ngrok-free.dev/generate-summary'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-26 16:38:47] [INFO] [main] POST /api/summary -> 502 (733.0ms)
+[2026-07-26 16:38:57] [INFO] [main] OPTIONS /api/summary -> 200 (0.2ms)
+[2026-07-26 16:38:57] [ERROR] [app.routers.summary] Summary generation failed for session 7eee16fd1152: Client error '404 Not Found' for url 'https://shudder-reviver-undercoat.ngrok-free.dev/generate-summary'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-26 16:38:57] [INFO] [main] POST /api/summary -> 502 (740.2ms)
+[2026-07-26 16:39:07] [INFO] [main] OPTIONS /api/summary -> 200 (0.3ms)
+[2026-07-26 16:39:08] [ERROR] [app.routers.summary] Summary generation failed for session 7eee16fd1152: Client error '404 Not Found' for url 'https://shudder-reviver-undercoat.ngrok-free.dev/generate-summary'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-26 16:39:08] [INFO] [main] POST /api/summary -> 502 (668.4ms)
+[2026-07-26 16:39:18] [INFO] [main] OPTIONS /api/summary -> 200 (0.2ms)
+[2026-07-26 16:39:19] [ERROR] [app.routers.summary] Summary generation failed for session 7eee16fd1152: Client error '404 Not Found' for url 'https://shudder-reviver-undercoat.ngrok-free.dev/generate-summary'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-26 16:39:19] [INFO] [main] POST /api/summary -> 502 (630.5ms)
+[2026-07-26 16:39:29] [INFO] [main] OPTIONS /api/summary -> 200 (0.2ms)
+[2026-07-26 16:39:30] [ERROR] [app.routers.summary] Summary generation failed for session 7eee16fd1152: Client error '404 Not Found' for url 'https://shudder-reviver-undercoat.ngrok-free.dev/generate-summary'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-26 16:39:30] [INFO] [main] POST /api/summary -> 502 (894.1ms)
+[2026-07-26 16:39:40] [INFO] [main] OPTIONS /api/summary -> 200 (0.3ms)
+[2026-07-26 16:39:41] [ERROR] [app.routers.summary] Summary generation failed for session 7eee16fd1152: Client error '404 Not Found' for url 'https://shudder-reviver-undercoat.ngrok-free.dev/generate-summary'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-26 16:39:41] [INFO] [main] POST /api/summary -> 502 (1169.9ms)
+[2026-07-26 16:39:51] [INFO] [main] OPTIONS /api/summary -> 200 (0.2ms)
+[2026-07-26 16:39:52] [ERROR] [app.routers.summary] Summary generation failed for session 7eee16fd1152: Client error '404 Not Found' for url 'https://shudder-reviver-undercoat.ngrok-free.dev/generate-summary'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-26 16:39:52] [INFO] [main] POST /api/summary -> 502 (716.1ms)
+[2026-07-26 16:40:02] [INFO] [main] OPTIONS /api/summary -> 200 (0.3ms)
+[2026-07-26 16:40:02] [ERROR] [app.routers.summary] Summary generation failed for session 7eee16fd1152: Client error '404 Not Found' for url 'https://shudder-reviver-undercoat.ngrok-free.dev/generate-summary'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-26 16:40:02] [INFO] [main] POST /api/summary -> 502 (628.3ms)
+[2026-07-26 16:40:12] [INFO] [main] OPTIONS /api/summary -> 200 (0.2ms)
+[2026-07-26 16:40:13] [ERROR] [app.routers.summary] Summary generation failed for session 7eee16fd1152: Client error '404 Not Found' for url 'https://shudder-reviver-undercoat.ngrok-free.dev/generate-summary'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-26 16:40:13] [INFO] [main] POST /api/summary -> 502 (632.4ms)
+[2026-07-26 16:40:23] [INFO] [main] OPTIONS /api/summary -> 200 (0.2ms)
+[2026-07-26 16:40:23] [ERROR] [app.routers.summary] Summary generation failed for session 7eee16fd1152: Client error '404 Not Found' for url 'https://shudder-reviver-undercoat.ngrok-free.dev/generate-summary'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-26 16:40:23] [INFO] [main] POST /api/summary -> 502 (650.2ms)
+[2026-07-26 16:40:33] [INFO] [main] OPTIONS /api/summary -> 200 (0.2ms)
+[2026-07-26 16:40:34] [ERROR] [app.routers.summary] Summary generation failed for session 7eee16fd1152: Client error '404 Not Found' for url 'https://shudder-reviver-undercoat.ngrok-free.dev/generate-summary'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-26 16:40:34] [INFO] [main] POST /api/summary -> 502 (872.6ms)
+[2026-07-26 16:40:44] [INFO] [main] OPTIONS /api/summary -> 200 (0.8ms)
+[2026-07-26 16:40:45] [ERROR] [app.routers.summary] Summary generation failed for session 7eee16fd1152: Client error '404 Not Found' for url 'https://shudder-reviver-undercoat.ngrok-free.dev/generate-summary'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-26 16:40:45] [INFO] [main] POST /api/summary -> 502 (740.4ms)
+[2026-07-26 16:40:55] [INFO] [main] OPTIONS /api/summary -> 200 (0.2ms)
+[2026-07-26 16:40:56] [ERROR] [app.routers.summary] Summary generation failed for session 7eee16fd1152: Client error '404 Not Found' for url 'https://shudder-reviver-undercoat.ngrok-free.dev/generate-summary'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-26 16:40:56] [INFO] [main] POST /api/summary -> 502 (701.6ms)
+[2026-07-26 16:41:06] [INFO] [main] OPTIONS /api/summary -> 200 (0.2ms)
+[2026-07-26 16:41:07] [ERROR] [app.routers.summary] Summary generation failed for session 7eee16fd1152: Client error '404 Not Found' for url 'https://shudder-reviver-undercoat.ngrok-free.dev/generate-summary'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-26 16:41:07] [INFO] [main] POST /api/summary -> 502 (914.1ms)
+[2026-07-26 16:41:17] [INFO] [main] OPTIONS /api/summary -> 200 (1.6ms)
+[2026-07-26 16:41:18] [ERROR] [app.routers.summary] Summary generation failed for session 7eee16fd1152: Client error '404 Not Found' for url 'https://shudder-reviver-undercoat.ngrok-free.dev/generate-summary'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-26 16:41:18] [INFO] [main] POST /api/summary -> 502 (719.8ms)
+[2026-07-26 16:41:28] [INFO] [main] OPTIONS /api/summary -> 200 (0.6ms)
+[2026-07-26 16:41:28] [ERROR] [app.routers.summary] Summary generation failed for session 7eee16fd1152: Client error '404 Not Found' for url 'https://shudder-reviver-undercoat.ngrok-free.dev/generate-summary'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-26 16:41:28] [INFO] [main] POST /api/summary -> 502 (862.3ms)
+[2026-07-26 16:41:38] [INFO] [main] OPTIONS /api/summary -> 200 (0.2ms)
+[2026-07-26 16:41:39] [ERROR] [app.routers.summary] Summary generation failed for session 7eee16fd1152: Client error '404 Not Found' for url 'https://shudder-reviver-undercoat.ngrok-free.dev/generate-summary'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-26 16:41:39] [INFO] [main] POST /api/summary -> 502 (786.2ms)
+[2026-07-26 16:41:49] [INFO] [main] OPTIONS /api/summary -> 200 (0.2ms)
+[2026-07-26 16:41:50] [ERROR] [app.routers.summary] Summary generation failed for session 7eee16fd1152: Client error '404 Not Found' for url 'https://shudder-reviver-undercoat.ngrok-free.dev/generate-summary'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-26 16:41:50] [INFO] [main] POST /api/summary -> 502 (781.3ms)
+[2026-07-26 16:42:00] [INFO] [main] OPTIONS /api/summary -> 200 (0.2ms)
+[2026-07-26 16:42:01] [ERROR] [app.routers.summary] Summary generation failed for session 7eee16fd1152: Client error '404 Not Found' for url 'https://shudder-reviver-undercoat.ngrok-free.dev/generate-summary'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-26 16:42:01] [INFO] [main] POST /api/summary -> 502 (702.2ms)
+[2026-07-26 16:42:11] [INFO] [main] OPTIONS /api/summary -> 200 (0.3ms)
+[2026-07-26 16:42:11] [ERROR] [app.routers.summary] Summary generation failed for session 7eee16fd1152: Client error '404 Not Found' for url 'https://shudder-reviver-undercoat.ngrok-free.dev/generate-summary'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-26 16:42:11] [INFO] [main] POST /api/summary -> 502 (744.1ms)
+[2026-07-26 16:42:21] [INFO] [main] OPTIONS /api/summary -> 200 (0.6ms)
+[2026-07-26 16:42:23] [ERROR] [app.routers.summary] Summary generation failed for session 7eee16fd1152: Client error '404 Not Found' for url 'https://shudder-reviver-undercoat.ngrok-free.dev/generate-summary'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-26 16:42:23] [INFO] [main] POST /api/summary -> 502 (1621.3ms)
+[2026-07-26 16:42:33] [INFO] [main] OPTIONS /api/summary -> 200 (0.2ms)
+[2026-07-26 16:42:34] [ERROR] [app.routers.summary] Summary generation failed for session 7eee16fd1152: Client error '404 Not Found' for url 'https://shudder-reviver-undercoat.ngrok-free.dev/generate-summary'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-26 16:42:34] [INFO] [main] POST /api/summary -> 502 (706.6ms)
+[2026-07-26 16:42:44] [INFO] [main] OPTIONS /api/summary -> 200 (0.4ms)
+[2026-07-26 16:42:45] [ERROR] [app.routers.summary] Summary generation failed for session 7eee16fd1152: Client error '404 Not Found' for url 'https://shudder-reviver-undercoat.ngrok-free.dev/generate-summary'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-26 16:42:45] [INFO] [main] POST /api/summary -> 502 (885.1ms)
+[2026-07-26 16:50:20] [INFO] [main] Backend shutting down.
+[2026-07-26 16:50:44] [INFO] [main] Da7ee7-El-Dof3a Backend v1.0.0 starting up (env=development)
+[2026-07-26 16:50:44] [INFO] [main] Kaggle AI base URL: https://shudder-reviver-undercoat.ngrok-free.dev
+[2026-07-26 16:51:35] [INFO] [app.services.file_storage] Saved file 'Operating_Systems_Lecture_20_Slides.pptx' for session '137dc2fead64' -> C:\Users\Aya Abdelwahab\Downloads\Da7ee7-El-Dof3a\Da7ee7-El-Dof3a\uploads\137dc2fead64\Operating_Systems_Lecture_20_Slides.pptx
+[2026-07-26 16:51:35] [INFO] [app.services.file_storage] Saved file 'Operating_Systems_Exam_2022.pdf' for session '137dc2fead64' -> C:\Users\Aya Abdelwahab\Downloads\Da7ee7-El-Dof3a\Da7ee7-El-Dof3a\uploads\137dc2fead64\Operating_Systems_Exam_2022.pdf
+[2026-07-26 16:51:35] [INFO] [app.services.file_storage] Saved file 'Operating_Systems_Exam_2023.pdf' for session '137dc2fead64' -> C:\Users\Aya Abdelwahab\Downloads\Da7ee7-El-Dof3a\Da7ee7-El-Dof3a\uploads\137dc2fead64\Operating_Systems_Exam_2023.pdf
+[2026-07-26 16:51:35] [INFO] [app.services.file_storage] Saved file 'Operating_Systems_Exam_2024.pdf' for session '137dc2fead64' -> C:\Users\Aya Abdelwahab\Downloads\Da7ee7-El-Dof3a\Da7ee7-El-Dof3a\uploads\137dc2fead64\Operating_Systems_Exam_2024.pdf
+[2026-07-26 16:51:35] [INFO] [app.routers.upload] Session '137dc2fead64' created with files: ['Operating_Systems_Lecture_20_Slides.pptx', 'Operating_Systems_Exam_2022.pdf', 'Operating_Systems_Exam_2023.pdf', 'Operating_Systems_Exam_2024.pdf']
+[2026-07-26 16:51:37] [INFO] [main] POST /api/upload -> 200 (2177.4ms)
+[2026-07-26 16:51:37] [INFO] [main] OPTIONS /api/summary -> 200 (0.4ms)
+[2026-07-26 16:53:10] [INFO] [main] POST /api/summary -> 200 (92998.4ms)
+[2026-07-26 16:53:56] [INFO] [main] OPTIONS /api/solve-exam -> 200 (0.3ms)
+[2026-07-26 16:54:20] [INFO] [main] POST /api/solve-exam -> 200 (24037.9ms)
+[2026-07-26 16:54:58] [INFO] [main] GET /api/download -> 200 (1066.3ms)
+[2026-07-26 16:56:17] [INFO] [main] OPTIONS /api/solve-exam -> 200 (0.4ms)
+[2026-07-26 16:56:41] [INFO] [main] POST /api/solve-exam -> 200 (24343.5ms)
+[2026-07-26 16:57:31] [INFO] [main] GET /api/download -> 200 (18.2ms)
+[2026-07-26 17:23:14] [INFO] [main] Backend shutting down.
+[2026-07-26 17:23:29] [INFO] [main] Da7ee7-El-Dof3a Backend v1.0.0 starting up (env=development)
+[2026-07-26 17:23:29] [INFO] [main] Kaggle AI base URL: https://shudder-reviver-undercoat.ngrok-free.dev
+[2026-07-26 17:24:44] [INFO] [main] Backend shutting down.
+[2026-07-26 17:25:58] [INFO] [main] Da7ee7-El-Dof3a Backend v1.0.0 starting up (env=development)
+[2026-07-26 17:25:58] [INFO] [main] Kaggle AI base URL: https://shudder-reviver-undercoat.ngrok-free.dev
+[2026-07-26 17:27:37] [INFO] [app.services.file_storage] Saved file 'Operating_Systems_Lecture_20_Slides.pptx' for session '8f8fcf52f80e' -> C:\Users\Aya Abdelwahab\Downloads\Da7ee7-El-Dof3a\Da7ee7-El-Dof3a\uploads\8f8fcf52f80e\Operating_Systems_Lecture_20_Slides.pptx
+[2026-07-26 17:27:37] [INFO] [app.services.file_storage] Saved file 'Operating_Systems_Exam_2022.pdf' for session '8f8fcf52f80e' -> C:\Users\Aya Abdelwahab\Downloads\Da7ee7-El-Dof3a\Da7ee7-El-Dof3a\uploads\8f8fcf52f80e\Operating_Systems_Exam_2022.pdf
+[2026-07-26 17:27:37] [INFO] [app.services.file_storage] Saved file 'Operating_Systems_Exam_2023.pdf' for session '8f8fcf52f80e' -> C:\Users\Aya Abdelwahab\Downloads\Da7ee7-El-Dof3a\Da7ee7-El-Dof3a\uploads\8f8fcf52f80e\Operating_Systems_Exam_2023.pdf
+[2026-07-26 17:27:37] [INFO] [app.services.file_storage] Saved file 'Operating_Systems_Exam_2024.pdf' for session '8f8fcf52f80e' -> C:\Users\Aya Abdelwahab\Downloads\Da7ee7-El-Dof3a\Da7ee7-El-Dof3a\uploads\8f8fcf52f80e\Operating_Systems_Exam_2024.pdf
+[2026-07-26 17:27:37] [INFO] [app.routers.upload] Session '8f8fcf52f80e' created with files: ['Operating_Systems_Lecture_20_Slides.pptx', 'Operating_Systems_Exam_2022.pdf', 'Operating_Systems_Exam_2023.pdf', 'Operating_Systems_Exam_2024.pdf']
+[2026-07-26 17:27:40] [INFO] [main] POST /api/upload -> 200 (2337.8ms)
+[2026-07-26 17:27:40] [INFO] [main] OPTIONS /api/summary -> 200 (0.2ms)
+[2026-07-26 17:28:33] [INFO] [main] POST /api/summary -> 200 (53401.9ms)
+[2026-07-26 17:28:40] [INFO] [main] GET /api/download -> 200 (1005.6ms)
+[2026-07-26 17:28:49] [INFO] [main] GET /api/download -> 200 (890.2ms)
+[2026-07-26 17:28:52] [ERROR] [app.routers.download] Download failed for session 8f8fcf52f80e (solved_exam): Client error '404 Not Found' for url 'https://shudder-reviver-undercoat.ngrok-free.dev/download?session_id=8f8fcf52f80e&file_type=solved_exam'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-07-26 17:28:52] [INFO] [main] GET /api/download -> 502 (861.1ms)
+[2026-07-26 17:28:53] [INFO] [main] GET /favicon.ico -> 404 (0.9ms)
+[2026-07-26 17:29:20] [INFO] [main] OPTIONS /api/solve-exam -> 200 (0.3ms)
+[2026-07-26 17:29:41] [INFO] [main] POST /api/solve-exam -> 200 (21440.2ms)
+[2026-07-26 17:30:04] [INFO] [main] GET /api/download -> 200 (1689.7ms)
+[2026-07-26 17:32:26] [INFO] [main] OPTIONS /api/solve-exam -> 200 (0.2ms)
+[2026-07-26 17:32:33] [INFO] [main] POST /api/solve-exam -> 200 (7680.6ms)
+[2026-07-26 17:39:42] [INFO] [main] OPTIONS /api/solve-exam -> 200 (0.3ms)
+[2026-07-26 17:39:55] [INFO] [main] POST /api/solve-exam -> 200 (13212.5ms)
+[2026-07-26 17:40:45] [INFO] [main] OPTIONS /api/summary -> 200 (0.3ms)
+[2026-07-26 17:41:37] [INFO] [main] POST /api/summary -> 200 (52200.8ms)
+[2026-07-26 17:42:59] [INFO] [app.services.file_storage] Saved file 'Operating_Systems_Practice_Exam.docx' for session '791f5728ce65' -> C:\Users\Aya Abdelwahab\Downloads\Da7ee7-El-Dof3a\Da7ee7-El-Dof3a\uploads\791f5728ce65\Operating_Systems_Practice_Exam.docx
+[2026-07-26 17:42:59] [INFO] [app.services.file_storage] Saved file 'Operating_Systems_Practice.pptx' for session '791f5728ce65' -> C:\Users\Aya Abdelwahab\Downloads\Da7ee7-El-Dof3a\Da7ee7-El-Dof3a\uploads\791f5728ce65\Operating_Systems_Practice.pptx
+[2026-07-26 17:42:59] [INFO] [app.routers.upload] Session '791f5728ce65' created with files: ['Operating_Systems_Practice_Exam.docx', 'Operating_Systems_Practice.pptx']
+[2026-07-26 17:43:01] [INFO] [main] POST /api/upload -> 200 (1907.9ms)
+[2026-07-26 17:43:01] [INFO] [main] OPTIONS /api/summary -> 200 (0.6ms)
+[2026-07-26 17:43:03] [ERROR] [app.routers.summary] Summary generation failed for session 791f5728ce65: Server disconnected without sending a response.
+[2026-07-26 17:43:03] [INFO] [main] POST /api/summary -> 502 (2207.9ms)
+[2026-07-26 17:43:13] [INFO] [main] OPTIONS /api/summary -> 200 (0.3ms)
+[2026-07-26 17:44:12] [INFO] [main] POST /api/summary -> 200 (59085.7ms)
+[2026-07-26 17:46:13] [INFO] [main] OPTIONS /api/solve-exam -> 200 (0.3ms)
+[2026-07-26 17:46:33] [INFO] [main] POST /api/solve-exam -> 200 (19850.3ms)
+[2026-07-26 17:48:27] [INFO] [main] OPTIONS /api/summary -> 200 (0.3ms)
+[2026-07-26 17:49:26] [INFO] [main] POST /api/summary -> 200 (59098.3ms)

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Upload — Da7ee7-El-Dof3a</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="nav-inner">
+      <a href="index.html" class="brand"><span class="brand-mark">دح</span>Da7ee7-El-Dof3a</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="upload.html">Upload</a></li>
+        <li><a href="processing.html">Processing</a></li>
+        <li><a href="results.html">Results</a></li>
+        <li><a href="summary.html">Summary</a></li>
+        <li><a href="solved_exams.html">Solved Exams</a></li>
+      </ul>
+      <button class="nav-toggle" aria-label="Toggle menu">☰</button>
+    </div>
+  </nav>
+
+  <header class="container" style="padding-top:56px;">
+    <span class="eyebrow">Step 1 of 4</span>
+    <h1 style="font-size:clamp(1.8rem,4vw,2.6rem); margin-top:14px;">Upload your lecture material</h1>
+    <p style="color:var(--text-muted-on-ink); max-width:56ch; margin-top:12px;">
+      Add slides, PowerPoints, previous exams, lecture audio, and lecture video.
+      You can mix file types — Da7ee7-El-Dof3a sorts them out automatically.
+    </p>
+  </header>
+
+  <section class="section tight">
+    <div class="container" style="display:grid; grid-template-columns: 1.3fr 0.7fr; gap:40px; align-items:start;">
+
+      <div>
+        <div class="upload-zone" id="dropZone">
+          <div class="icon">📎</div>
+          <h3>Drag & drop files here</h3>
+          <p class="hint">PDF, PPT/PPTX, DOC/DOCX, MP3/WAV/M4A, MP4/MOV/MKV — up to 300MB each</p>
+          <label class="file-input-label" for="fileInput">Choose files</label>
+          <input type="file" id="fileInput" multiple hidden
+                 accept=".pdf,.ppt,.pptx,.doc,.docx,.mp3,.wav,.m4a,.mp4,.mov,.mkv" />
+        </div>
+
+        <div class="file-list" id="fileList"></div>
+
+        <div id="uploadError" style="color:var(--coral); margin-top:16px; display:none;"></div>
+
+        <div style="margin-top:28px; display:flex; gap:14px;">
+          <button class="btn btn-primary" id="submitBtn" disabled>Upload & start processing →</button>
+        </div>
+      </div>
+
+      <aside>
+        <h3 style="margin-bottom:16px;">What to include</h3>
+        <div class="category-checklist" id="checklist">
+          <div class="item" data-cat="slides"><span class="dot"></span> Lecture Slides (PDF)</div>
+          <div class="item" data-cat="ppt"><span class="dot"></span> PowerPoint</div>
+          <div class="item" data-cat="exam"><span class="dot"></span> Previous Exams</div>
+          <div class="item" data-cat="audio"><span class="dot"></span> Lecture Audio</div>
+          <div class="item" data-cat="video"><span class="dot"></span> Lecture Video</div>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <footer class="container">
+    <span>© 2026 Da7ee7-El-Dof3a</span>
+    <span>Your files stay on your session only.</span>
+  </footer>
+
+  <script src="js/api.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/upload.js"></script>
+</body>
+</html>

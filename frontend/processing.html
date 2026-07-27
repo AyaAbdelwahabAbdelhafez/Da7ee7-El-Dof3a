@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Processing — Da7ee7-El-Dof3a</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="nav-inner">
+      <a href="index.html" class="brand"><span class="brand-mark">دح</span>Da7ee7-El-Dof3a</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="upload.html">Upload</a></li>
+        <li><a href="processing.html">Processing</a></li>
+        <li><a href="results.html">Results</a></li>
+        <li><a href="summary.html">Summary</a></li>
+        <li><a href="solved_exams.html">Solved Exams</a></li>
+      </ul>
+      <button class="nav-toggle" aria-label="Toggle menu">☰</button>
+    </div>
+  </nav>
+
+  <section class="section">
+    <div class="container progress-wrap">
+      <span class="eyebrow">Step 2 of 4</span>
+      <h1 style="font-size:clamp(1.6rem,3.6vw,2.2rem); margin-top:14px;">Your AI is studying for you</h1>
+      <p style="color:var(--text-muted-on-ink); margin-top:10px;">
+        This runs on GPU and usually takes a few minutes depending on how much material you uploaded.
+      </p>
+
+      <div class="progress-track">
+        <div class="progress-bar" id="progressBar"></div>
+      </div>
+      <div class="mono" id="progressLabel" style="color:var(--text-muted-on-ink); font-size:0.85rem;">0%</div>
+
+      <div class="stage-list" id="stageList">
+        <div class="stage-item" data-stage="upload"><span class="marker">1</span> Files received by backend</div>
+        <div class="stage-item" data-stage="extract"><span class="marker">2</span> Extracting text from slides & documents</div>
+        <div class="stage-item" data-stage="transcribe"><span class="marker">3</span> Transcribing lecture audio & video (Whisper)</div>
+        <div class="stage-item" data-stage="embed"><span class="marker">4</span> Building embeddings & FAISS index</div>
+        <div class="stage-item" data-stage="generate"><span class="marker">5</span> Generating summary, topics & revision notes</div>
+        <div class="stage-item" data-stage="done"><span class="marker">6</span> Finalizing your results</div>
+      </div>
+
+      <div style="margin-top:36px;">
+        <a href="results.html" class="btn btn-primary" id="viewResultsBtn" style="display:none;">View my results →</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="container">
+    <span>© 2026 Da7ee7-El-Dof3a</span>
+    <span>Powered by a quantized LLM on Kaggle GPU.</span>
+  </footer>
+
+  <script src="js/api.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/processing.js"></script>
+</body>
+</html>

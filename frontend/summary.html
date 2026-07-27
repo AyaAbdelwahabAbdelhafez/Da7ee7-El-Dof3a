@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Summary — Da7ee7-El-Dof3a</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="nav-inner">
+      <a href="index.html" class="brand"><span class="brand-mark">دح</span>Da7ee7-El-Dof3a</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="upload.html">Upload</a></li>
+        <li><a href="processing.html">Processing</a></li>
+        <li><a href="results.html">Results</a></li>
+        <li><a href="summary.html">Summary</a></li>
+        <li><a href="solved_exams.html">Solved Exams</a></li>
+      </ul>
+      <button class="nav-toggle" aria-label="Toggle menu">☰</button>
+    </div>
+  </nav>
+
+  <header class="container" style="padding-top:56px;">
+    <span class="eyebrow">Step 4 of 4</span>
+    <h1 style="font-size:clamp(1.8rem,4vw,2.6rem); margin-top:14px;">Smart Summary & Important Topics</h1>
+  </header>
+
+  <section class="section tight paper-section">
+    <div class="container">
+      <div class="tab-bar">
+        <button class="tab-btn active" data-tab="summary">Smart Summary</button>
+        <button class="tab-btn" data-tab="topics">Important Topics</button>
+        <button class="tab-btn" data-tab="revision">Revision Notes</button>
+      </div>
+
+      <div id="tab-summary" class="tab-panel">
+        <div class="card" id="summaryCard">
+          <p>Loading your summary…</p>
+        </div>
+      </div>
+
+      <div id="tab-topics" class="tab-panel" style="display:none;">
+        <div class="card" id="topicsCard">
+          <p>Loading topics…</p>
+        </div>
+      </div>
+
+      <div id="tab-revision" class="tab-panel" style="display:none;">
+        <div class="card" id="revisionCard">
+          <p>Loading revision notes…</p>
+        </div>
+      </div>
+
+      <div style="margin-top:24px;">
+        <button class="btn btn-dark" id="downloadSummaryBtn">Export as PDF</button>
+      </div>
+    </div>
+  </section>
+
+  <footer class="container">
+    <span>© 2026 Da7ee7-El-Dof3a</span>
+    <span>Grounded in your own lecture material via RAG.</span>
+  </footer>
+
+  <script src="js/api.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/summary.js"></script>
+</body>
+</html>
