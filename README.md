@@ -186,7 +186,7 @@ backend/
 │
 frontend/
 │
-notebooks/
+ai_service/
 │
 README.md
 ```
