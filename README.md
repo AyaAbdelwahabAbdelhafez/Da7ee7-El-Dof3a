@@ -44,6 +44,16 @@ The project combines Retrieval-Augmented Generation (RAG), vector databases, and
 
 ---
 
+# 🎥 Project Demo Video
+
+A full walkthrough of Da7ee7-El-Dof3a, showing the upload workflow, Smart Summary, AI Exam Solver, and PDF export in action.
+
+▶️ **Watch the demo:** [Google Drive link – add link here](PASTE_YOUR_GOOGLE_DRIVE_LINK_HERE)
+
+> ⚠️ Make sure the Google Drive file's sharing setting is **"Anyone with the link can view"**, otherwise reviewers won't be able to open it.
+
+---
+
 # ✨ Features
 
 ## 📚 Smart Summary
