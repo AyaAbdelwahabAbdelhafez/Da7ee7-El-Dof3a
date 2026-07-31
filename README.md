@@ -44,16 +44,6 @@ The project combines Retrieval-Augmented Generation (RAG), vector databases, and
 
 ---
 
-# 🎥 Project Demo Video
-
-A full walkthrough of Da7ee7-El-Dof3a, showing the upload workflow, Smart Summary, AI Exam Solver, and PDF export in action.
-
-▶️ **Watch the demo:** [Google Drive link – add link here](PASTE_YOUR_GOOGLE_DRIVE_LINK_HERE)
-
-> ⚠️ Make sure the Google Drive file's sharing setting is **"Anyone with the link can view"**, otherwise reviewers won't be able to open it.
-
----
-
 # ✨ Features
 
 ## 📚 Smart Summary
@@ -92,7 +82,7 @@ Download generated summaries, revision notes, and solved exams as professionally
 
 ---
 
-## ⚡ Fast API Backend
+## ⚡ FastAPI Backend
 
 RESTful API built with FastAPI for seamless frontend integration.
 
@@ -102,39 +92,31 @@ RESTful API built with FastAPI for seamless frontend integration.
 
 ```text
 Student
-
-↓
-
+   │
+   ▼
 Upload PDFs / PPTX / DOCX
-
-↓
-
+   │
+   ▼
 Text Extraction
-
-↓
-
+   │
+   ▼
 Chunking
-
-↓
-
+   │
+   ▼
 Embeddings
-
-↓
-
+   │
+   ▼
 FAISS Vector Database
-
-↓
-
+   │
+   ▼
 Retriever
-
-↓
-
+   │
+   ▼
 Large Language Model
-
-↓
-
+   │
+   ▼
 Summary
-Topics
+Important Topics
 Revision Notes
 Solved Exam
 ```
@@ -143,26 +125,26 @@ Solved Exam
 
 # 🛠️ Tech Stack
 
-### Backend
+## Backend
 
 - Python
 - FastAPI
 - Uvicorn
 
-### AI
+## AI
 
 - Hugging Face Transformers
 - LangChain
 - FAISS
 - Sentence Transformers
 
-### Data Processing
+## Data Processing
 
 - pdfplumber
 - python-pptx
 - python-docx
 
-### Deployment
+## Deployment
 
 - Kaggle GPU
 - ngrok
@@ -172,28 +154,40 @@ Solved Exam
 # 📂 Project Structure
 
 ```text
-backend/
+Da7ee7-El-Dof3a/
 │
-├── app/
-│   ├── routers/
-│   ├── services/
-│   ├── utils/
-│   ├── models/
-│   └── main.py
+├── ai_service/
+│   ├── da7ee7-el-dof3a-ai-service.ipynb
+│   └── requirements.txt
 │
-├── uploads/
-├── outputs/
+├── backend/
+│   ├── app/
+│   ├── logs/
+│   ├── .env
+│   ├── .env.example
+│   └── requirements.txt
 │
-frontend/
+├── frontend/
+│   ├── css/
+│   ├── js/
+│   ├── index.html
+│   ├── upload.html
+│   ├── processing.html
+│   ├── summary.html
+│   ├── results.html
+│   └── solved_exams.html
 │
-ai_service/
+├── .vscode/
+│   └── launch.json
 │
-README.md
+└── README.md
 ```
 
 ---
 
 # ⚙️ Installation
+
+Clone the repository:
 
 ```bash
 git clone https://github.com/AyaAbdelwahabAbdelhafez/Da7ee7-El-Dof3a.git
@@ -201,31 +195,33 @@ git clone https://github.com/AyaAbdelwahabAbdelhafez/Da7ee7-El-Dof3a.git
 cd Da7ee7-El-Dof3a
 ```
 
-Create a virtual environment
+Create a virtual environment:
 
 ```bash
 python -m venv .venv
 ```
 
-Activate it
+Activate it.
+
+Linux / macOS:
 
 ```bash
 source .venv/bin/activate
 ```
 
-Windows
+Windows:
 
 ```powershell
 .venv\Scripts\activate
 ```
 
-Install dependencies
+Install dependencies:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Run FastAPI
+Run the backend:
 
 ```bash
 uvicorn app.main:app --reload
@@ -247,45 +243,19 @@ uvicorn app.main:app --reload
 
 ---
 
-# 📸 Demo
-
-## Smart Summary
-
-(Add Screenshot)
-
----
-
-## Revision Notes
-
-(Add Screenshot)
-
----
-
-## Solved Exam
-
-(Add Screenshot)
-
----
-
-## Dashboard
-
-(Add Screenshot)
-
----
-
 # 📊 Results
 
 ✔ Upload and process lecture files
 
-✔ Build FAISS vector database
+✔ Build a FAISS vector database
 
 ✔ Generate AI-powered summaries
 
-✔ Extract important topics
+✔ Identify important topics automatically
 
 ✔ Produce revision notes
 
-✔ Solve previous exams
+✔ Solve previous exams using RAG
 
 ✔ Export downloadable PDF reports
 
@@ -307,7 +277,7 @@ uvicorn app.main:app --reload
 
 This project was developed as part of the **Tips Hindawi Challenge (June–July 2026)** under the **Large Language Models (LLMs)** training program organized by **Edrak for AI**.
 
-The challenge focuses on applying LLMs to solve real-world problems through practical AI projects.
+The challenge focuses on applying Large Language Models to solve real-world educational problems through practical AI applications.
 
 ---
 
@@ -315,8 +285,7 @@ The challenge focuses on applying LLMs to solve real-world problems through prac
 
 **Aya Abdelwahab Abdelhafez**
 
-GitHub
-
+GitHub:
 https://github.com/AyaAbdelwahabAbdelhafez
 
 ---
